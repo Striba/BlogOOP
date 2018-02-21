@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin: 0;
+padding: 0;	
+}
+
+body {
+	/*background-image: linear-gradient(#D1D4D7, #F8F8F8);*/
+        background-color: #6b6b70;
+	padding-bottom: 0px;
+	margin-top: 0 ;
+	margin-left:auto;
+	margin-right:auto;
+	height:1000px;
+}
+
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
